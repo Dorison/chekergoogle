@@ -32,4 +32,8 @@ jobs:
         with:
           output: reports
           type: "php"
-
+      - name: Upload scan reports
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: shiftleft-scan-reports
+          path: reports
