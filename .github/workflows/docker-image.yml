@@ -27,3 +27,13 @@ jobs:
           push: true
           tags: dorison/seogoogle:latest
           labels: ${{ steps.meta.outputs.labels }}
+      - name: Self sast-scan
+        uses: AppThreat/sast-scan-action@v1.0.0
+        with:
+          output: reports
+          type: python,bash
+      - name: Upload scan reports
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: sast-scan-reports
+          path: reports
