@@ -25,5 +25,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: dorison/seogoogle:${{ github.run_number }}
+          tags: dorison/seogoogle:latest
           labels: ${{ steps.meta.outputs.labels }}
