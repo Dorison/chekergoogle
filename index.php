@@ -104,7 +104,7 @@
     <div class="row">
 <div class="col-md-3"></div><div class="col-md-6 col-sm-12">
 	<form action="" method="POST">
-		<center><h1>Перевірка позицій Google</h1></center>
+		<center><h1>Перевірка позицій Google TEST</h1></center>
 		Введіть пошуковий запит, за яким хочете перевірити позицію сайту в Google.
 	<input  name="query" type="text" placeholder="Пошуковий запит" size="40"/><!--<input name="query" type="radio" value="Експертиза проектної документації" /> Експертиза проектної документації <input name="query" type="radio" value="Експертиза кошторисів" />Експертиза кошторисів <input name="query" type="radio" value="Експертиза кошторисної документації" /> Експертиза кошторисної документації <input name="query" type="radio" value="Експертиза проектної документації" /> Експертиза проектної документації <input name="query" type="radio" value="Експертиза проектної документації 2022
 " /> Експертиза проектної документації 2022 
